@@ -1,29 +1,40 @@
 {
-	"name": "memeverse",
-	"version": "0.0.1",
-	"private": true,
-	"scripts": {
-		"dev": "vite dev",
-		"build": "vite build",
-		"preview": "vite preview",
-		"lint": "prettier --check . && eslint .",
-		"format": "prettier --write ."
-	},
-	"devDependencies": {
-		"@sveltejs/adapter-auto": "^3.0.0",
-		"@sveltejs/kit": "^2.0.0",
-		"@sveltejs/vite-plugin-svelte": "^3.0.0",
-		"eslint": "^8.28.0",
-		"eslint-config-prettier": "^9.1.0",
-		"eslint-plugin-svelte": "^2.30.0",
-		"prettier": "^3.1.1",
-		"prettier-plugin-svelte": "^3.1.2",
-		"svelte": "^4.2.7",
-		"vite": "^5.0.3"
-	},
-	"type": "module",
-	"dependencies": {
-		"firebase": "^10.7.1",
-		"uuid": "^9.0.1"
-	}
+  "name": "memeverse",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "prettier --check . && eslint .",
+    "format": "prettier --write .",
+    "ionic:build": "npm run build",
+    "ionic:serve": "npm run dev"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-auto": "^3.0.0",
+    "@sveltejs/adapter-node": "^4.0.0",
+    "@sveltejs/adapter-static": "^3.0.1",
+    "@sveltejs/kit": "^2.0.0",
+    "@sveltejs/vite-plugin-svelte": "^3.0.0",
+    "eslint": "^8.28.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-svelte": "^2.30.0",
+    "prettier": "^3.1.1",
+    "prettier-plugin-svelte": "^3.1.2",
+    "svelte": "^4.2.7",
+    "vite": "^5.0.3"
+  },
+  "type": "module",
+  "dependencies": {
+    "@capacitor/android": "5.6.0",
+    "@capacitor/app": "5.0.6",
+    "@capacitor/cli": "5.6.0",
+    "@capacitor/core": "5.6.0",
+    "@capacitor/haptics": "5.0.6",
+    "@capacitor/keyboard": "5.0.7",
+    "@capacitor/status-bar": "5.0.6",
+    "firebase": "^10.7.1",
+    "uuid": "^9.0.1"
+  }
 }
