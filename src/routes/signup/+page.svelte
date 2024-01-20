@@ -15,7 +15,7 @@
         toggleModal()
 
         if (result.status == false) modalMessage = result.error
-        else { modalMessage = alert("Account created successfully!"); goto('/') }
+        else { modalMessage = alert("Account created successfully!"); goto('/not_verified') }
     }
 </script>
 
